@@ -1,4 +1,6 @@
-**Asymmetric error costs in regression models**
+# Asymmetric error costs in regression models
+
+## This repo discovers the asymmetric error costs in regression models: How effectively is the markdown tuning algorithm to reduce the misprediction cost of a cost-sensitive regression problem?
 
 A vast amount of data is collected and processed to provide better support for decision-making in industries, such as finance, marketing, retail and medicine. The major problem with real-world data mining applications lies within the traditional minimization of prediction errors, which assumes equal over- and underprediction costs. This assumption generally does not hold in practice. In a binary classification problem, incorrectly predicting a fraudulent transaction as “non-fraud” leads to higher costs than predicting a legitimate transaction as “fraud”. In a regression problem, underestimating the resale price of a pre-owned car is associated with opportunity cost of lost sales, whereas systematic overestimation can significantly reduce revenue and increase expenses, leading to business bankruptcy. On an individual level, we perceive being 20 minutes late for an exam worse than arriving 20 minutes early.
 
